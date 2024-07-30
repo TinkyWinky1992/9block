@@ -29,9 +29,14 @@ function App() {
 
   return (
     <>
-      {isOpen && <BlockSecuritygame />}
+      {isOpen && (
+        <div className='App'>
+          <BlockSecuritygame />
+        </div>
+      )}
     </>
-  )
+  );
 }
+  
 
 export default App
