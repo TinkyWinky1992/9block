@@ -1,0 +1,118 @@
+
+.layout-test{
+display: flex;
+padding: 20px 0px;
+flex-direction: column;
+align-items: flex-end;
+gap: 10px;
+align-self: stretch;
+}
+
+
+.title-test {
+  color: rgba(255, 255, 255, 0.60);
+  font-family: Inter;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal; 
+}
+
+.layout-test{
+  display: flex;
+  padding: 20px 0px;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 10px;
+  align-self: stretch;
+}
+
+.layer-test{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-end;
+  gap: 1.2rem;
+}
+.Row {
+    display: flex;
+}
+  
+
+.Game{
+  display: flex;
+  width: 384px;
+  height: 384px;
+  padding: 30px;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  border-radius: 20px;
+  border: 2px solid rgba(255, 255, 255, 0.20);
+  background: rgba(255, 255, 255, 0.10);
+
+}
+
+.Game.red{
+  border-radius: 20px;
+  border: 2px solid rgba(250, 128, 114, 0.20);
+  background: rgba(250, 128, 114, 0.10);
+}
+.Game.green {
+  border-radius: 20px;
+  border: 2px solid rgba(206, 250, 114, 0.20);
+  background: rgba(206, 250, 114, 0.10);
+}
+  .BlockTest {
+    width: 6rem; 
+    height: 6rem; 
+    margin: 0.5rem; 
+    border: 0.2rem solid rgba(255, 255, 255, 0.1);
+    border-radius: 1rem; 
+    background-color: rgba(255, 255, 255, 0.05);
+    box-shadow: 0 0 1rem rgba(0, 0, 0, 0.3); 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background-color 0.3s, transform 0.3s; 
+    cursor: pointer; 
+  }
+  
+  .BlockTest:hover {
+    background-color: rgba(255, 255, 255, 0.1); 
+    transform: scale(1.05); 
+  }
+  .BlockTest.yellow {
+    border-radius: 1rem;
+    border: 0.2rem solid rgba(255, 218, 88, 0.50);
+    background: rgba(255, 218, 88, 0.30);
+}
+
+  .BlockTest.red{
+    border: 0.2rem  solid rgba(250, 128, 114, 0.20);
+    background: rgba(250, 128, 114, 0.10);
+  }
+  
+  .BlockTest.green{
+    border: 0.2rem  solid rgba(206, 250, 114, 0.20);
+    background: rgba(206, 250, 114, 0.10);
+  }
+
+  .BlockTest.selected {
+    border: 0.2rem solid rgba(255, 218, 88, 0.70); 
+    background: rgba(255, 218, 88, 0.50); 
+    box-shadow: 0 0 1.5rem rgba(255, 218, 88, 0.50); 
+    transform: scale(1.1); 
+}
+
+.BlockTest.red-mark {
+    border: 0.2rem solid #FA8072; 
+    background: rgba(250, 128, 114, 0.70); 
+    box-shadow: 0 0 1.5rem #FA8072; 
+}
+
+.BlockTest.green-mark {
+    border: 0.2rem solid #CEFA72; 
+    background: rgba(206, 250, 114, 0.70); 
+    box-shadow: 0 0 1.5rem #CEFA72; 
+}

@@ -1,0 +1,103 @@
+.layout-startup {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 30px;
+    border-radius: 15px;
+
+}
+
+.container-startup {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 30px;
+
+}
+
+
+
+.layer-startup {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 62px;
+}
+
+.layer-attention {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 10px;
+
+}
+
+.Title-attention {
+    color: #FFF;
+    font-family: Inter, sans-serif;
+    font-size: 32px;
+    font-weight: 700;
+    margin: 0;
+}
+
+.operation {
+    color: #FFDA58;
+    font-family: Inter, sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    margin: 0;
+}
+
+.description-details,
+.when-start,
+.timer-explain {
+    color: #FFF;
+    font-family: Inter, sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    margin: 0;
+}
+
+.layer-button {
+    display: flex;
+    padding: 10px 30px;
+    align-items: center;
+    gap: 10px;
+    border-radius: 12px;
+    border: 2px solid #FFDA58;
+    background: rgba(255, 218, 88, 0.20);
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.layer-button:hover {
+    transform: scale(1.05);
+}
+
+.button-start {
+    color: #FFDA58;
+    font-family: Inter, sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    cursor: pointer;
+}
+
+.block-py,
+.ATM {
+    color: #FFDA58;
+    font-family: Inter, sans-serif;
+    font-size: 1.1rem;
+    font-weight: 700;
+}
+
+.alert-icon {
+    width: 50px;
+    height: 50px;
+    margin-bottom: 10px;
+}

@@ -1,0 +1,54 @@
+.note{
+  
+    display: flex;
+    width: 428px;
+    align-items: flex-start;
+    align-self: stretch;
+  }
+  
+  .container-note{
+    display: flex;
+    align-items: flex-start;
+    gap: 10px;
+    flex: 1 0 0;
+  }
+  
+  .layer-text-explain{
+    display: flex;
+    width: 327px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 10px;
+  
+}
+
+.text-level{
+    color: #FFF;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin: 0;
+}
+
+.description-level {
+    color: rgba(255, 255, 255, 0.80);
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin: 0;
+}
+
+.cause-operation {
+    font-weight: 700;
+
+}
+
+.usb-burn {
+    font-weight: 700;
+
+}

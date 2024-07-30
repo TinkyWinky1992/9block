@@ -1,0 +1,1 @@
+export * from './9blockgame.component'

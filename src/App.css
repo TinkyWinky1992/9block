@@ -1,0 +1,10 @@
+.App {
+  background-image: url('./assets/los-santos-gta-v-cityscape-game.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 100vh; /* Full viewport height */
+  width: 100vw; /* Full viewport width */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

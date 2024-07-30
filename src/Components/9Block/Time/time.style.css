@@ -1,0 +1,82 @@
+.time{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 10px;
+    flex: 1 0 0;
+}
+
+.container-layer-time{
+    display: flex;
+    padding-right: 80px;
+    align-items: flex-start;
+    gap: 10px;
+    flex: 1 0 0;
+   
+}
+
+.layer-text-time{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 10px;
+    
+}
+
+.title-Time {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin: 0;
+}
+
+.time-left {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.time-sensitive {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.description-Time{
+    color: rgba(255, 255, 255, 0.80);
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin: 0;
+
+}
+
+.time-left.red {
+    color: #FA8072;;
+
+
+}
+
+.time-left.green {
+    color: #CEFA72;
+}
+
+.time-sensitive.red {
+    color: #FA8072;;
+}
+
+.time-sensitive.green {
+    color: #CEFA72;
+}
