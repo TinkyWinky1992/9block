@@ -5,7 +5,7 @@ import './App.css'
 function App() {
   const [isOpen, setIsOpen] = useState(false);
 
-
+  console.log("hi")
   useEffect(() => {
     const handleMessage = (event: MessageEvent) => {
       console.log(event.data)
@@ -37,6 +37,6 @@ function App() {
     </>
   );
 }
-  
-
+//{isOpen && (
+// )}
 export default App

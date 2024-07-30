@@ -22,7 +22,7 @@ export const Startup:React.FC<{setStart:Dispatch<React.SetStateAction<boolean>>;
 
                         <h3 className="description-details">You will have to get passed the firewall by matching the 9block to the right panel</h3>
                         <h3 className="when-start"> The moment you start this python script,</h3>
-                        <h3 className="timer-exlplain"> the timer will start decreasing.</h3>
+                        <h3 className="timer-explain"> the timer will start decreasing.</h3>
                     </div>
 
 

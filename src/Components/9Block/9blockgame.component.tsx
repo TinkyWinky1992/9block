@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from "react";
+import axios from 'axios';
 import { TestBlock } from "./TestBlocks";
 import { ExampleBlocks } from "./ExmapleBlocks";
 import { Explain } from "./Explanation";
@@ -69,6 +70,23 @@ export const BlockSecuritygame: React.FC = () => {
             setTimeout(() => {
                 setTransitionType(isWin ? 'success' : 'failed');
                 setShowTransition(true);
+
+                setTimeout(async () => {
+                    try {
+                        const resourceName = (window as any).GetParentResourceName ? (window as any).GetParentResourceName() : 'nui';
+                        const eventName = "closeATM";
+
+                        const resp = await axios.post(`https://${resourceName}/${eventName}`, {}, {
+                            headers: {
+                                'Content-Type': 'application/json; charset=UTF-8',
+                            }
+                        });
+
+                        console.log(resp.data);
+                    } catch (error) {
+                        console.error(error);
+                    }
+                }, 5000);  // 5 seconds delay before closing the UI
             }, 1000);
         }
     }, [isOver, isWin, isStart]);
@@ -118,7 +136,7 @@ export const BlockSecuritygame: React.FC = () => {
                     classNames="fade"
                     unmountOnExit
                 >
-                    <div>
+                    <div >
                         <div className="Explanation">
                             <Explain level={level} />
                             <TimeInfo number={formatTime(time)} isOver={isOver} isWin={isWin} />

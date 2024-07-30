@@ -54,14 +54,29 @@
     margin: 0;
 }
 
-.description-details,
-.when-start,
-.timer-explain {
+.description-details{
     color: #FFF;
-    font-family: Inter, sans-serif;
+    font-family: Inter;
     font-size: 24px;
+    font-style: normal;
     font-weight: 400;
-    margin: 0;
+    line-height: normal;
+}
+.when-start{
+    color: #FFF;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.timer-explain {
+    color: #FFDA58;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
 }
 
 .layer-button {

@@ -1,5 +1,4 @@
 .App {
-  background-image: url('./assets/los-santos-gta-v-cityscape-game.jpg');
   background-size: cover;
   background-position: center;
   height: 100vh; /* Full viewport height */
@@ -7,4 +6,8 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  overflow: hidden; /* Hides content outside the container */
+  backdrop-filter: none !important;
+ 
+  
 }

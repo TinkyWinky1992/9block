@@ -49,11 +49,13 @@ export const TestBlock: React.FC<TestBlockProps> = ({ correctBlocks, timer, seti
     }, [timer, setisOver]);
 
     useEffect(() => {
-        if (selectedCount === 5) {
+
+
+        if (selectedCount === 5 ) {
             setIsCorrect(true);
             setTimeout(() => {
-                setIsCorrect(false);
                 setLevel(prevLevel => prevLevel + 1);
+                setIsCorrect(false);
                 setTestBlocks(Array.from({ length: 3 }, () => Array(3).fill(0)));
                 setSelectedCount(0);
             }, 2000);
